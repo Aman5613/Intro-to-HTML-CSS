@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: ivory;
+}
+#intro{
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+}
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 5%;
+}
+#menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 25px;
+    gap: 5px;
+}
+#zero{
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    padding: 5px 10px;
+}
+#bt-menu{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+#place{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    justify-content: space-between;
+}
+#intro h1{
+    font-size: 105px;
+    line-height: 100px;
+
+}
+#image-1{
+    width: 100%;
+}
+#about{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+#about h3{
+    width: 75%;
+    font-size: 70px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    font-weight: 550;
+}
+#about-2{
+    width: 40%;
+    height: 280px;
+    border-left: 1.5px solid black;
+    padding: 0 1cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#about h4{
+    font-size: 25px;
+}
+#icons{
+    display: flex;
+    gap: 15px;
+    font-size: 15px;
+    border: none;
+}
+.ri-instagram-line{
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+.ri-dribbble-line{
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+.ri-twitter-line{
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+#work{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    border-top: 1.5px solid black;
+    padding: 2%;
+    border-bottom: 1.5px solid black;
+}
+#work-1{
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    border-right: 1.5px solid black;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#work-2{
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    /* background-color: skyblue; */
+    padding: 0 2%;
+}
+#work-2 h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+#work-2 p{
+    font-size: 17px
+}
+#work-2-1{
+    /* background-color: aquamarine; */
+    display: flex;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 5%;
+}
+#c1{
+    border-right: 1.5px solid black;
+    padding-right: 6%;
+}
+#d1{
+    border-right: 1.5px solid black;
+    padding-right: 6%;
+}
+#c2{
+    padding-left: 6%;
+}
+#d2{
+    padding-left: 6%;
+}
+#work-2-2{
+    /* background-color: violet; */
+    display: flex;
+    padding-top: 5%;
+}
+#l-work{
+    font-size: 485%;
+}

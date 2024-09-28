@@ -1,0 +1,43 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: ivory;
+}
+#nav{
+    display : flex;
+    justify-content: space-between;
+    padding: 2%  3.5%;
+}
+#nav-1{
+    display : flex;
+    justify-content: space-between;
+    /* background-color: lightcoral; */
+    width: 38%;
+}
+#nav-2{
+    display : flex;
+    justify-content: space-between;
+    /* background-color: lightgreen; */
+    width: 40%;
+    font-size: larger;
+}
+#hello{
+    padding: 8% 3.5%;
+    padding-bottom: 3%;
+    font-size: 24px;
+    font-weight: 600;
+}
+#intro{
+    /* background-color: lightcoral; */
+    font-size: 130px;
+    padding: 0 2.5%;
+    line-height: 120px;
+    letter-spacing: -7px;
+    word-spacing: 10px;
+    font-weight: 600;
+}
